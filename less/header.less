@@ -1,0 +1,154 @@
+.header {
+  .container-blue {
+    background-color: @background-color_1;
+    .container {
+      padding: 13.5px 0;
+      display: flex;
+      justify-content: space-between;
+      label {
+        font-family: @font-family_1;
+        font-size: 13px;
+        color: @color_1;
+        margin-left: 15px;
+      }
+      select#lang,
+      select#currency {
+        font-size: 13px;
+        font-family: @font-family_1;
+        color: @color_2;
+        background-color: @background-color_1;
+        border: none;
+        width: 59px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        background: url(../img/icons8-expand-arrow-24.png);
+        background-repeat: no-repeat;
+        background-size: 16px 17px;
+        background-position: right 0px;
+        padding-right: 15px;
+        &:focus {
+          outline: -webkit-focus-ring-color auto 0px;
+        }
+        option {
+          font-family: @font-family_1;
+          font-size: 13px;
+          color: @color_2;
+          background-color: @background-color_1;
+          &:focus {
+            outline: -webkit-focus-ring-color auto 0px;
+          }
+        }
+      }
+      select#currency {
+        width: 43px;
+        text-transform: uppercase;
+      }
+      .block-right {
+        ul {
+          display: flex;
+          li {
+            border-left: 1px solid @color_3;
+            &:first-child {
+              border-left: none;
+            }
+            a {
+              font-family: @font-family_1;
+              font-size: 13px;
+              color: @color_3;
+              padding: 0 15px;
+
+              height: 12px;
+              line-height: 0.9;
+              margin-top: 4px;
+              text-decoration: none;
+              &:hover {
+                color: @color_7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .container-white {
+    background-color: @background-color_2;
+    .container {
+      //border: 1px solid red;
+      padding: 30.5px 0px;
+      display: grid;
+      grid-template-columns: 20% 40% 40%;
+      h1 {
+        font-family: @font-family_2;
+        font-size: 36px;
+        color: @color_4;
+        text-transform: uppercase;
+        margin-left: 15px;
+      }
+      .user-menu {
+        font-family: @font-family_2;
+        font-size: 14px;
+        color: @color_4;
+        text-transform: uppercase;
+        display: flex;
+        margin-left: 19px;
+        margin-top: 14px;
+        li {
+          padding: 0 10.5px;
+
+        }
+      }
+      .block-search {
+        display: flex;
+        form {
+          margin-left: 59px;
+          margin-top: 10px;
+          input {
+            background-image: url("../img/search.png");
+            background-repeat: no-repeat;
+            background-position-x: right;
+            border: 1px solid @color_5;
+            padding: 6px;
+            width: 174px;
+            background-position: 97% 6px;
+            &::placeholder {
+              font-family: @font-family_2;
+              font-size: 13px;
+              color: @color_5;
+            }
+          }
+        }
+        .circle-green {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          background-color: @background-color_3;
+          &:first-of-type {
+            margin: 6px 2px 0 13px;
+          }
+          &:nth-child(3) {
+            margin: 6px 13px 0 2px;
+          }
+          .ioy {
+            transform: translate(8px, 9px);
+          }
+          .basket {
+            transform: translate(6px, 10px);
+          }
+        }
+        .cart {
+          margin-top: 12px;
+          p {
+            font-family: @font-family_2;
+            font-size: 14px;
+            color: @color_4;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+

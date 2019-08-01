@@ -1,0 +1,71 @@
+.banner {
+  .sl {
+    .img-sl {
+      height: 475px;
+      background-size: 100% 100%;
+      .container {
+        //border: 1px solid red;
+        height: 99%;
+
+        p:first-child {
+          font-family: @font-family_3;
+          font-size: 30px;
+          width: 271px;
+          color: white;
+          padding-bottom: 4px;
+          margin-top: 17.5%;
+          margin-left: 51px;
+          padding-left: 15px;
+          background-color: #06060680;
+          text-transform: uppercase;
+        }
+        p:last-child {
+          font-family: @font-family_2;
+          padding-top: 4px;
+          padding-bottom: 5px;
+          font-size: 28px;
+          width: 315px;
+          background-color: #06060680;
+          text-transform: uppercase;
+          color: white;
+          margin-left: 51px;
+          margin-top: 3px;
+          padding-left: 14px;
+        }
+      }
+    }
+
+  }
+
+  .slick-prev {
+    left: 88px;
+    top: 41%;
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/icons8-expand-arrow-50.png);
+    background-repeat: no-repeat;
+    transform: rotate(88deg);
+    background-color: white;
+    border-radius: 53px;
+    background-size: 32px;
+    background-position: 50% 61%;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 106px;
+    top: 41%;
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/icons8-expand-arrow-50.png);
+    background-repeat: no-repeat;
+    transform: rotate(269deg);
+    background-color: white;
+    border-radius: 53px;
+    background-size: 32px;
+    background-position: 50% 50%;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: @color_6;
+  }
+}
