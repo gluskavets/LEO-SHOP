@@ -9,4 +9,13 @@ jQuery(function ($) {
         arrows: true, /*стрілки керування*/
     });
 
+    $('aside .slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        // speed: 1000,
+        slidesToShow: 1,
+        infinite: true,
+        arrows: false,
+        dots: true
+    });
 });
