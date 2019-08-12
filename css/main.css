@@ -176,6 +176,11 @@ hr {
   height: 475px;
   background-size: 100% 100%;
 }
+@media screen and (max-width: 768px) {
+  .banner .sl .img-sl {
+    height: auto;
+  }
+}
 .banner .sl .img-sl .container {
   height: 99%;
 }
@@ -191,6 +196,74 @@ hr {
   background-color: #06060680;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1405px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 74px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 8%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 1333px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 11%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 1246px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner .sl .img-sl .container p:first-child {
+    font-size: 26px;
+    width: 224px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .banner .sl .img-sl .container p:first-child {
+    margin-left: 2%;
+    font-size: 22px;
+    width: 190px;
+  }
+}
 .banner .sl .img-sl .container p:last-child {
   font-family: 'OpenSans-Bold';
   padding-top: 4px;
@@ -203,6 +276,74 @@ hr {
   margin-left: 51px;
   margin-top: 3px;
   padding-left: 14px;
+}
+@media screen and (max-width: 1405px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 74px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 8%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 1333px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 11%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 1246px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner .sl .img-sl .container p:last-child {
+    font-size: 24px;
+    width: 275px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .banner .sl .img-sl .container p:last-child {
+    margin-left: 2%;
+    font-size: 20px;
+    width: 230px;
+  }
 }
 .banner .slick-prev {
   left: 88px;
@@ -218,6 +359,11 @@ hr {
   background-position: 50% 61%;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+  .banner .slick-prev {
+    display: none!important;
+  }
+}
 .banner .slick-next {
   right: 106px;
   top: 41%;
@@ -230,6 +376,11 @@ hr {
   border-radius: 53px;
   background-size: 32px;
   background-position: 50% 50%;
+}
+@media screen and (max-width: 768px) {
+  .banner .slick-next {
+    display: none!important;
+  }
 }
 .banner .slick-prev:before,
 .banner .slick-next:before {
