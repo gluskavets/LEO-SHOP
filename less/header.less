@@ -5,40 +5,49 @@
       padding: 13.5px 0;
       display: flex;
       justify-content: space-between;
-
-      label {
-        font-family: @font-family_1;
-        font-size: 13px;
-        color: @color_1;
-        margin-left: 15px;
+      @media screen and (max-width: 1254px) {
+        width: auto;
       }
-      select#lang,
-      select#currency {
-        font-size: 13px;
-        font-family: @font-family_1;
-        color: @color_2;
-        background-color: @background-color_1;
-        border: none;
-        width: 59px;
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        background: url(../img/icons8-expand-arrow-24.png);
-        background-repeat: no-repeat;
-        background-size: 16px 17px;
-        background-position: right 0px;
-        padding-right: 15px;
-        &:focus {
-          outline: -webkit-focus-ring-color auto 0px;
+      .block-left {
+        @media screen and (max-width: 410px) {
+          display: grid;
+          grid-template-columns: auto auto;
         }
-        option {
+
+        label {
           font-family: @font-family_1;
           font-size: 13px;
+          color: @color_1;
+          margin-left: 15px;
+        }
+        select#lang,
+        select#currency {
+          font-size: 13px;
+          font-family: @font-family_1;
           color: @color_2;
           background-color: @background-color_1;
+          border: none;
+          width: 65px;
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          background: url(../img/icons8-expand-arrow-24.png);
+          background-repeat: no-repeat;
+          background-size: 16px 17px;
+          background-position: right 0px;
+          padding-right: 15px;
           &:focus {
             outline: -webkit-focus-ring-color auto 0px;
+          }
+          option {
+            font-family: @font-family_1;
+            font-size: 13px;
+            color: @color_2;
+            background-color: @background-color_1;
+            &:focus {
+              outline: -webkit-focus-ring-color auto 0px;
+            }
           }
         }
       }
@@ -47,6 +56,10 @@
         text-transform: uppercase;
       }
       .block-right {
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+
         ul {
           display: flex;
           li {
@@ -72,40 +85,163 @@
           }
         }
       }
+      .block-right.active {
+        @media screen and (max-width: 768px) {
+          display: block;
+          transition: 0.5s;
+        }
+        ul {
+          @media screen and (max-width: 768px) {
+            display: block;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 49px;
+            right: 0;
+            background-color: #4cb1ca;
+            z-index: 1;
+            transition: 0.5s;
+          }
+          li {
+            border-left: none;
+            border-bottom: 1px solid #d2faff;
+            &:last-of-type {
+              border-bottom: none;
+            }
+            &:first-of-type {
+              border-top: 1px solid #d2faff;
+            }
+            a {
+              font-size: 15px;
+            }
+          }
+
+        }
+      }
+      button {
+        display: none;
+        background-color: @background-color_1;
+        border: none;
+        margin-right: 15px;
+        cursor: pointer;
+        @media screen and (max-width: 768px) {
+          display: inline-block;
+        }
+        i {
+          color: @color_7;
+          font-size: 22px;
+        }
+        &:focus {
+          outline: -webkit-focus-ring-color auto 0px;
+        }
+      }
     }
   }
   .container-white {
     background-color: @background-color_2;
     .container {
-      //border: 1px solid red;
       padding: 30.5px 0px;
       display: grid;
       grid-template-columns: 20% 40% 40%;
+      @media screen and (max-width: 1254px) {
+        width: auto;
+      }
+      @media screen and (max-width: 1056px) {
+        grid-template-columns: 21% 40% 39%;
+      }
+      @media screen and (max-width: 1007px) {
+        display: block;
+      }
       h1 {
         font-family: @font-family_2;
         font-size: 36px;
         color: @color_4;
         text-transform: uppercase;
         margin-left: 15px;
-      }
-      .user-menu {
-        font-family: @font-family_2;
-        font-size: 14px;
-        color: @color_4;
-        text-transform: uppercase;
-        display: flex;
-        margin-left: 19px;
-        margin-top: 14px;
-        li {
-          padding: 0 10.5px;
-
+        @media screen and (max-width: 1007px) {
+          text-align: center;
+          width: 50%;
+          margin: 0 auto;
         }
+        @media screen and (max-width: 420px) {
+          width: 100%;
+          font-size: 32px;
+        }
+      }
+      .block-menu {
+        @media screen and (max-width: 1007px) {
+          width: 50%;
+          margin: 0 auto;
+        }
+        @media screen and (max-width: 822px) {
+          margin: 0 auto;
+          width: 100%;
+          justify-content: center;
+          display: flex;
+        }
+        @media screen and (max-width: 420px) {
+          text-align: center;
+        }
+        .user-menu {
+          font-family: @font-family_2;
+          font-size: 14px;
+          color: @color_4;
+          text-transform: uppercase;
+          display: flex;
+          margin-left: 19px;
+          margin-top: 14px;
+          cursor: pointer;
+          @media screen and (max-width: 1007px) {
+            margin-left: 0px;
+            justify-content: center;
+          }
+          @media screen and (max-width: 420px) {
+
+            display: block;
+            margin: 14px auto;
+            width: 100%;
+            font-size: 15px;
+          }
+          li {
+            padding: 0 10.5px;
+            &:hover {
+              color: @background-color_5;
+
+            }
+          }
+        }
+
       }
       .block-search {
         display: flex;
+        @media screen and (max-width: 1075px) {
+          width: 36%;
+          margin: 14px auto;
+        }
+        @media screen and (max-width: 1069px) {
+          width: 36%;
+        }
+        @media screen and (max-width: 1007px) {
+          width: 36%;
+        }
+        @media screen and (max-width: 896px) {
+          width: 100%;
+          margin: 14px auto;
+          justify-content: center;
+        }
+        @media screen and (max-width: 420px) {
+          display: block;
+          width: 50%;
+        }
         form {
           margin-left: 59px;
           margin-top: 10px;
+          @media screen and (max-width: 1056px) {
+            margin-left: 30px;
+          }
+          @media screen and (max-width: 1007px) {
+            margin-left: 0px;
+          }
           input {
             background-image: url("../img/search.png");
             background-repeat: no-repeat;
@@ -125,22 +261,40 @@
           width: 35px;
           height: 35px;
           border-radius: 50%;
+          cursor: pointer;
           background-color: @background-color_3;
+          &:hover {
+            background-color: @background-color_5;
+          }
           &:first-of-type {
             margin: 6px 2px 0 13px;
+            @media screen and (max-width: 420px) {
+              margin-top: 12px;
+            }
           }
           &:nth-child(3) {
             margin: 6px 13px 0 2px;
+            @media screen and (max-width: 420px) {
+              margin-top: 12px;
+            }
           }
+
           .ioy {
             transform: translate(8px, 9px);
           }
           .basket {
             transform: translate(6px, 10px);
           }
+          @media screen and (max-width: 420px) {
+            float: left;
+            margin-top: 12px;
+          }
         }
         .cart {
           margin-top: 12px;
+          @media screen and (max-width: 420px) {
+            margin-top: 18px;
+          }
           p {
             font-family: @font-family_2;
             font-size: 14px;

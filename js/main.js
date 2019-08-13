@@ -18,4 +18,9 @@ jQuery(function ($) {
         arrows: false,
         dots: true
     });
+    $('.menu').click(function () {
+        $('.menu').toggleClass('active');
+        $('.block-right').toggleClass('active');
+    });
+
 });
