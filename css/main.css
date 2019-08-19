@@ -768,11 +768,53 @@ hr {
   background-color: #4cb1ca;
   padding: 20.5px 0;
 }
+@media screen and (max-width: 1171px) {
+  .main-footer .footer-top .container {
+    width: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top .container {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .main-footer .footer-top .container {
+    grid-template-columns: 95%;
+  }
+}
 .main-footer .footer-top div {
   display: flex;
 }
+@media screen and (max-width: 1171px) {
+  .main-footer .footer-top div {
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top div {
+    margin-left: 0px;
+  }
+}
 .main-footer .footer-top div:nth-child(2) {
   margin-left: 88px;
+}
+@media screen and (max-width: 968px) {
+  .main-footer .footer-top div:nth-child(2) {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 884px) {
+  .main-footer .footer-top div:nth-child(2) {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top div:nth-child(2) {
+    margin-left: 0px;
+  }
 }
 .main-footer .footer-top div .icon-footer-top {
   background-color: #ffffff;
@@ -783,14 +825,37 @@ hr {
   height: 65px;
   border-radius: 50%;
 }
-.main-footer .footer-top div .icon-footer-top .icon-truck {
-  font-size: 36px;
-  color: #39a0b9;
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top div .icon-footer-top {
+    height: 44px;
+  }
+}
+@media screen and (max-width: 462px) {
+  .main-footer .footer-top div .icon-footer-top {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-footer .footer-top div .icon-footer-top {
+    width: 44px;
+    height: 38px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top div .icon-footer-top img {
+    width: 20px;
+  }
 }
 .main-footer .footer-top div .icon-footer-top .fa-phone {
   font-size: 26px;
   color: #39a0b9;
   transform: rotate(92deg);
+}
+@media screen and (max-width: 800px) {
+  .main-footer .footer-top div .icon-footer-top .fa-phone {
+    font-size: 20px;
+  }
 }
 .main-footer .footer-top div p {
   font-family: 'OpenSans';
@@ -800,6 +865,26 @@ hr {
   align-items: center;
   margin-left: 20px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 1171px) {
+  .main-footer .footer-top div p {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 462px) {
+  .main-footer .footer-top div p {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main-footer .footer-top div p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main-footer .footer-top div p {
+    font-size: 16px;
+  }
 }
 .main-footer .footer-info {
   background-color: #39a0b9;
