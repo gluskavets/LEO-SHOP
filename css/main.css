@@ -825,6 +825,7 @@ hr {
 }
 .main-content .container main .products-block .products .product .price-basket .basket img {
   transform: translate(10px, 10px);
+  cursor: pointer;
 }
 .main-content aside {
   padding-right: 28px;
@@ -1266,6 +1267,7 @@ hr {
   }
 }
 .main-footer .footer-info .container .social-networks .social-network {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
