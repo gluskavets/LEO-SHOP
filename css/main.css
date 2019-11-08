@@ -780,7 +780,7 @@ hr {
   background-color: #eff1f0;
 }
 .main-content .container main .products-block .products .product .card-img .card-img-top {
-  margin: 59px 16px;
+  margin: 59px 4px;
 }
 @media screen and (max-width: 1226px) {
   .main-content .container main .products-block .products .product .card-img .card-img-top {
@@ -839,6 +839,41 @@ hr {
   .main-content aside {
     width: 40%;
     margin: 65px auto;
+  }
+}
+@media screen and (max-width: 605px) {
+  .main-content aside {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 536px) {
+  .main-content aside {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-content aside {
+    width: 52%;
+  }
+}
+@media screen and (max-width: 455px) {
+  .main-content aside {
+    width: 56%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main-content aside {
+    width: 63%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main-content aside {
+    width: 71%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-content aside {
+    width: 83%;
   }
 }
 .main-content aside .sidebar-featured-product .slider {
@@ -1029,6 +1064,7 @@ hr {
 .main-footer .footer-info .container {
   display: grid;
   grid-template-columns: 23% 23% 21.5% 18.5%;
+  grid-column-gap: 36px;
 }
 @media screen and (max-width: 1184px) {
   .main-footer .footer-info .container {

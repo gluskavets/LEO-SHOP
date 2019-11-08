@@ -6,6 +6,7 @@
     display: grid;
     grid-template-areas: 'main aside';
     grid-template-columns: 75% 25%;
+
     @media screen and (max-width: 1171px) {
       grid-template-columns: 75% 21%;
       justify-content: center;
@@ -18,7 +19,7 @@
     @media screen and (max-width: 1055px) {
       grid-template-columns: 75% 19%;
      }
-      @media screen and (max-width: 901px) {
+    @media screen and (max-width: 901px) {
         display: block;
       }
       main {
@@ -36,7 +37,6 @@
             width: 85%;
             margin: 50px auto;
           }
-
           h4 {
             margin-bottom: 20px;
             @media screen and (max-width: 325px) {
@@ -153,7 +153,8 @@
               .card-img {
                 background-color: @color_10;
                 .card-img-top {
-                  margin: 59px 16px;
+                  //margin: 59px 16px;
+                  margin: 59px 4px;
                   @media screen and (max-width: 1226px) {
                     margin: 59px 0px;
                   }
@@ -212,6 +213,27 @@
         @media screen and (max-width: 901px){
           width: 40%;
           margin: 65px auto;
+        }
+        @media screen and (max-width: 605px) {
+          width: 45%;
+        }
+        @media screen and (max-width: 536px) {
+          width: 49%;
+        }
+        @media screen and (max-width: 500px) {
+          width: 52%;
+        }
+        @media screen and (max-width: 455px) {
+          width: 56%;
+        }
+        @media screen and (max-width: 420px) {
+          width: 63%;
+        }
+        @media screen and (max-width: 370px) {
+          width: 71%;
+        }
+        @media screen and (max-width: 320px) {
+          width: 83%;
         }
         .sidebar-featured-product {
           .slider {
