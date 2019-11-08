@@ -1120,7 +1120,6 @@ hr {
 }
 .main-footer .footer-info .container .box-info {
   justify-content: center;
-  display: grid;
 }
 .main-footer .footer-info .container .box-info ul {
   margin: 30px 0 13px 0;
