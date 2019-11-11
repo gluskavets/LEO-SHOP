@@ -375,7 +375,7 @@ hr {
 .banner .sl .img-sl .container {
   height: 99%;
 }
-.banner .sl .img-sl .container p:first-child {
+.banner .sl .img-sl .container h2 {
   font-family: 'OpenSans-Light';
   font-size: 30px;
   width: 271px;
@@ -388,74 +388,74 @@ hr {
   text-transform: uppercase;
 }
 @media screen and (max-width: 1405px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 74px;
   }
 }
 @media screen and (max-width: 1370px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 8%;
   }
 }
 @media screen and (max-width: 1350px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 9%;
   }
 }
 @media screen and (max-width: 1333px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 10%;
   }
 }
 @media screen and (max-width: 1300px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 11%;
   }
 }
 @media screen and (max-width: 1280px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 12%;
   }
 }
 @media screen and (max-width: 1246px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 13%;
   }
 }
 @media screen and (max-width: 1224px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 14%;
   }
 }
 @media screen and (max-width: 1200px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 15%;
   }
 }
 @media screen and (max-width: 1175px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 16%;
   }
 }
 @media screen and (max-width: 768px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 4%;
   }
 }
 @media screen and (max-width: 568px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     font-size: 26px;
     width: 224px;
   }
 }
 @media screen and (max-width: 414px) {
-  .banner .sl .img-sl .container p:first-child {
+  .banner .sl .img-sl .container h2 {
     margin-left: 2%;
     font-size: 22px;
     width: 190px;
   }
 }
-.banner .sl .img-sl .container p:last-child {
+.banner .sl .img-sl .container p {
   font-family: 'OpenSans-Bold';
   padding-top: 4px;
   padding-bottom: 5px;
@@ -469,68 +469,68 @@ hr {
   padding-left: 14px;
 }
 @media screen and (max-width: 1405px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 74px;
   }
 }
 @media screen and (max-width: 1370px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 8%;
   }
 }
 @media screen and (max-width: 1350px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 9%;
   }
 }
 @media screen and (max-width: 1333px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 10%;
   }
 }
 @media screen and (max-width: 1300px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 11%;
   }
 }
 @media screen and (max-width: 1280px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 12%;
   }
 }
 @media screen and (max-width: 1246px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 13%;
   }
 }
 @media screen and (max-width: 1224px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 14%;
   }
 }
 @media screen and (max-width: 1200px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 15%;
   }
 }
 @media screen and (max-width: 1175px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 16%;
   }
 }
 @media screen and (max-width: 768px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 4%;
   }
 }
 @media screen and (max-width: 568px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     font-size: 24px;
     width: 275px;
   }
 }
 @media screen and (max-width: 414px) {
-  .banner .sl .img-sl .container p:last-child {
+  .banner .sl .img-sl .container p {
     margin-left: 2%;
     font-size: 20px;
     width: 230px;
@@ -610,115 +610,115 @@ hr {
     display: block;
   }
 }
-.main-content .container main {
+.main-content .container .main {
   grid-area: main;
 }
-.main-content .container main .products-block {
+.main-content .container .main .products-block {
   margin-bottom: 54px;
 }
 @media screen and (max-width: 1020px) {
-  .main-content .container main .products-block {
+  .main-content .container .main .products-block {
     width: 95%;
     margin: 50px auto;
   }
 }
 @media screen and (max-width: 1015px) {
-  .main-content .container main .products-block {
+  .main-content .container .main .products-block {
     width: 100%;
   }
 }
 @media screen and (max-width: 901px) {
-  .main-content .container main .products-block {
+  .main-content .container .main .products-block {
     width: 85%;
     margin: 50px auto;
   }
 }
-.main-content .container main .products-block h4 {
+.main-content .container .main .products-block h4 {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 325px) {
-  .main-content .container main .products-block h4 {
+  .main-content .container .main .products-block h4 {
     font-size: 19px;
   }
 }
-.main-content .container main .products-block .products {
+.main-content .container .main .products-block .products {
   display: grid;
   grid-template-columns: 233px 233px 233px;
   grid-gap: 28px;
 }
 @media screen and (max-width: 1171px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 226px 226px 226px;
   }
 }
 @media screen and (max-width: 1015px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 222px 222px 222px;
   }
 }
 @media screen and (max-width: 9090px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 218px 218px 218px;
   }
 }
 @media screen and (max-width: 7070px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 214px 214px 214px;
   }
 }
 @media screen and (max-width: 952px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 210px 210px 210px;
   }
 }
 @media screen and (max-width: 1025px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 205px 205px 205px;
   }
 }
 @media screen and (max-width: 1010px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 200px 200px 200px;
   }
 }
 @media screen and (max-width: 870px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 233px 233px;
     justify-content: center;
   }
 }
 @media screen and (max-width: 660px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 230px 203px;
   }
 }
 @media screen and (max-width: 638px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 226px 226px;
   }
 }
 @media screen and (max-width: 608px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 220px 220px;
   }
 }
 @media screen and (max-width: 590px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 215px 215px;
   }
 }
 @media screen and (max-width: 580px) {
-  .main-content .container main .products-block .products {
+  .main-content .container .main .products-block .products {
     grid-template-columns: 233px ;
   }
 }
-.main-content .container main .products-block .products .product {
+.main-content .container .main .products-block .products .product {
   position: relative;
   padding: 10px;
   border: 1px solid #eff1f0;
   box-shadow: 0 0 5px 0px #e7e8e8;
 }
-.main-content .container main .products-block .products .product .sale-box {
+.main-content .container .main .products-block .products .product .sale-box {
   height: 100px;
   right: -1px;
   overflow: hidden;
@@ -727,7 +727,7 @@ hr {
   top: -2px;
   width: 100px;
 }
-.main-content .container main .products-block .products .product .sale-box span.on_sale {
+.main-content .container .main .products-block .products .product .sale-box span.on_sale {
   background: #4cb1ca;
   color: #FFF;
   display: block;
@@ -747,7 +747,7 @@ hr {
   text-transform: uppercase;
   border-bottom: 2px solid #2892AC;
 }
-.main-content .container main .products-block .products .product .sale-box1 {
+.main-content .container .main .products-block .products .product .sale-box1 {
   height: 100px;
   left: 0px;
   overflow: hidden;
@@ -756,7 +756,7 @@ hr {
   top: 0px;
   width: 100px;
 }
-.main-content .container main .products-block .products .product .sale-box1 span.on_sale {
+.main-content .container .main .products-block .products .product .sale-box1 span.on_sale {
   background: #7DB122;
   color: #FFF;
   display: block;
@@ -776,54 +776,54 @@ hr {
   text-transform: uppercase;
   border-bottom: 2px solid #6B9C15;
 }
-.main-content .container main .products-block .products .product .card-img {
+.main-content .container .main .products-block .products .product .card-img {
   background-color: #eff1f0;
 }
-.main-content .container main .products-block .products .product .card-img .card-img-top {
+.main-content .container .main .products-block .products .product .card-img .card-img-top {
   margin: 59px 4px;
 }
 @media screen and (max-width: 1226px) {
-  .main-content .container main .products-block .products .product .card-img .card-img-top {
+  .main-content .container .main .products-block .products .product .card-img .card-img-top {
     margin: 59px 0px;
   }
 }
 @media screen and (max-width: 1025px) {
-  .main-content .container main .products-block .products .product .card-img .card-img-top {
+  .main-content .container .main .products-block .products .product .card-img .card-img-top {
     width: 99%;
   }
 }
-.main-content .container main .products-block .products .product .price-basket {
+.main-content .container .main .products-block .products .product .price-basket {
   display: grid;
   grid-template-columns: 78% 22%;
 }
-.main-content .container main .products-block .products .product .price-basket .title-glasses {
+.main-content .container .main .products-block .products .product .price-basket .title-glasses {
   font-family: 'OpenSans';
   font-size: 14px;
   color: #464148;
   text-align: left;
   padding: 8px 0px 0px 7px;
 }
-.main-content .container main .products-block .products .product .price-basket .price {
+.main-content .container .main .products-block .products .product .price-basket .price {
   font-family: 'OpenSans';
   font-size: 17px;
   text-align: left;
   padding: 0px 0px 0px 8px;
   color: #7db122;
 }
-.main-content .container main .products-block .products .product .price-basket .price span {
+.main-content .container .main .products-block .products .product .price-basket .price span {
   color: #464148;
   font-family: 'OpenSans';
   font-size: 13.5px;
   text-decoration: line-through;
 }
-.main-content .container main .products-block .products .product .price-basket .basket {
+.main-content .container .main .products-block .products .product .price-basket .basket {
   width: 47px;
   height: 47px;
   margin: 6px 0px;
   background-color: #7db122;
   border-radius: 50%;
 }
-.main-content .container main .products-block .products .product .price-basket .basket img {
+.main-content .container .main .products-block .products .product .price-basket .basket img {
   transform: translate(10px, 10px);
   cursor: pointer;
 }
